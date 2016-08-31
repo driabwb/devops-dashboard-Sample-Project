@@ -2,6 +2,9 @@
 *~
 \#*\#
 
+# Unit test log file
+xunit.xml
+
 # Logs
 logs
 *.log
