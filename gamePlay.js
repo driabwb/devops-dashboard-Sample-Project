@@ -10,6 +10,7 @@ exports.x = x;
 var o = 2;
 exports.o = o;
 
+// This creates an empty board
 exports.createNewBoard = function(){
     return [
 	    [none, none, none],
