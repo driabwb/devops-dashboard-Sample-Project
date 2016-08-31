@@ -33,6 +33,7 @@ exports.addMove = function(gameState, row, col){
     }
 };
 
+// This changes the player between x and o as appropriate
 exports.switchCurrentPlayer = function(gameState){
     if(x === gameState.currentPlayer){
 	gameState.currentPlayer = o;
