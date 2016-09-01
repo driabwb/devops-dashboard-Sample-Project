@@ -22,6 +22,7 @@ var askForColumn = function(gameState, row){
 	});
 };
 
+// Ask in the console for a row number.
 var askForRow = function(gameState){
     rl.question("Which row?\n", function(result){
 	    askForColumn(parseInt(result));
