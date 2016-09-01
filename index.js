@@ -1,6 +1,6 @@
 var gamePlay = require('./gamePlay.js');
 
-// Setup for reading from console.
+// Setup for reading from console
 const readline = require('readline');
 const rl = readline.createInterface({
 	input: process.stdin,
