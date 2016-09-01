@@ -32,4 +32,5 @@ var askForRow = function(gameState){
 	});
 };
 
+// Start the program
 askForRow({board: gamePlay.createNewBoard(), currentPlayer: gamePlay.x});
