@@ -34,3 +34,5 @@ var askForRow = function(gameState){
 
 // Start the program
 askForRow({board: gamePlay.createNewBoard(), currentPlayer: gamePlay.x});
+
+console.log("Thank you, please come again");
