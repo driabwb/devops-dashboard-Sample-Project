@@ -16,6 +16,7 @@ var playerMoved = function(gameState, row, col){
     }
 };
 
+// Ask in the console for a column number.
 var askForColumn = function(gameState, row){
     rl.question("Which Column?\n", function(result){
 	    playerMoved(gameState, row, parseInt(result));
