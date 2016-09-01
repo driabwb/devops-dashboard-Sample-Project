@@ -9,4 +9,11 @@ describe("Testing Board Functions", function(){
 			assert.deepEqual(board, [ [0,0,0], [0,0,0], [0,0,0] ]);
 		    });
 	    });
+	describe("Testing Player Switching", function(){
+		it("Should change to o when it is currently x", function(){
+			var gameState = {'currentPlayer': tictactoe.x};
+			tictactoe.switchCurrentPlayer(gameState);
+			assert.deepEqual(gameState, {'currentPlayer': tictactoe.o});
+		    });
+	    });
     });
