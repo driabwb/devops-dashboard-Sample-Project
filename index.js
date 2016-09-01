@@ -6,6 +6,7 @@ const rl = readline.createInterface({
 	output: process.stdout
     });
 
+// Attempt to make the move specified.
 var playerMoved = function(gameState, row, col){
     if(!gamePlay.addMove(gameState,row,col)){
 	console.log("You made and invalid move. Please try again.\n");
