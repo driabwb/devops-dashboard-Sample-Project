@@ -15,5 +15,10 @@ describe("Testing Board Functions", function(){
 			tictactoe.switchCurrentPlayer(gameState);
 			assert.deepEqual(gameState, {'currentPlayer': tictactoe.o});
 		    });
+		it("Should change to x when it is currently o", function(){
+			var gameState = {'currentPlayer': tictactoe.o};
+			tictactoe.switchCurrentPlayer(gameState);
+			assert.deepEqual(gameState, {'currentPlayer': tictactoe.x});
+		    });
 	    });
     });
