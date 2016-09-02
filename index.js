@@ -25,7 +25,7 @@ var askForColumn = function(gameState, row){
 	});
 };
 
-// Blah!
+// Blah
 
 // Ask in the console for a row number.
 var askForRow = function(gameState){
