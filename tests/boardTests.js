@@ -21,4 +21,13 @@ describe("Testing Board Functions", function(){
 			assert.deepEqual(gameState, {'currentPlayer': tictactoe.x});
 		    });
 	    });
+	describe("Testing move checks", function(){
+		it("Should say invalid move for position 4,4", function(){
+			var gameState = {'currentPlayer': tictactoe.x, 'board': [ [0,0,0],
+										  [0,0,0],
+										  [0,0,0] ]};
+			var result = tictactoe.addMove(gameState, 4,4);
+			assert.isFalse(result);
+		    });
+	    });
     });
