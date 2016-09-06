@@ -22,7 +22,7 @@ exports.createNewBoard = function(){
 // This attempts to add a players move to the board.
 exports.addMove = function(gameState, row, col){
     var player = gameState.currentPlayer;
-    if(!(0 < row && row < 3 && 0 < col && col < 3)){
+    if(!(0 <= row && row < 3 && 0 <= col && col < 3)){
 	return false;
     }
     if(gameState.board[row][col] === none){
